@@ -106,7 +106,10 @@ img {
 .margin-right {
   margin-right: 50px;
 }
+
 .contact-header-link {
+  display: flex;
+  align-items: center;
   color: var(--primary-sonic-color);
   font-weight: 500;
   font-size: 14px;
@@ -116,6 +119,13 @@ img {
 .contact-header-link:hover,
 .contact-header-link:focus {
   color: var(--primary-blue-color);
+}
+.contact-header-link-icon {
+  margin-right: 10px;
+}
+.contact-header-link:hover .contact-header-link-icon,
+.contact-header-link:focus .contact-header-link-icon {
+  fill: var(--primary-blue-color);
 }
 /* MAIN STUDIO */
 .site-header {
@@ -235,7 +245,22 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
 }
+.clients-list {
+  display: flex;
+}
 
+.clients-item:not(:last-child) {
+  margin-right: 30px;
+}
+.clients-item-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+}
 /* FOOTER STUDIO */
 .site-footer {
   background-color: var(--primary-background-color);
