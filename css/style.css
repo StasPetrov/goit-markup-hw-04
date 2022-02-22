@@ -281,10 +281,10 @@ img {
 .clients-item:not(:last-child) {
   margin-right: 30px;
 }
-.clients-item-icon {
+.clients-icon {
   fill: #afb1b8;
 }
-.clients-item-link {
+.clients-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -293,12 +293,12 @@ img {
   width: 170px;
   height: 92px;
 }
-.clients-item-link:hover,
-.clients-item-link:focus {
+.clients-link:hover,
+.clients-link:focus {
   border: 1px solid var(--primary-blue-color);
 }
-.clients-item-link:hover .clients-item-icon,
-.clients-item-link:focus .clients-item-icon {
+.clients-link:hover .clients-icon,
+.clients-link:focus .clients-icon {
   fill: var(--primary-blue-color);
 }
 
