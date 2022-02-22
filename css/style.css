@@ -355,7 +355,7 @@ img {
 .footer-social-item:not(:last-child) {
   margin-right: 10px;
 }
-.footer-social-item-link {
+.footer-social-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -364,11 +364,11 @@ img {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
-.footer-social-item-link:hover,
-.footer-social-item-link:focus {
+.footer-social-link:hover,
+.footer-social-link:focus {
   background-color: var(--primary-blue-color);
 }
-.footer-social-link-icon {
+.footer-social-icon {
   fill: var(--primary-white-color);
 }
 /* PORTFOLIO PAGE MAIN  */
