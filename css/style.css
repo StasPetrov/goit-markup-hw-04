@@ -189,7 +189,7 @@ img {
 .features-list {
   display: flex;
 }
-.features-list-title {
+.features-item-title {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -197,7 +197,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.features-list-text {
+.features-item-text {
   color: var(--primary-sonic-color);
   font-size: 14px;
   line-height: 1.71;
